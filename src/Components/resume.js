@@ -52,6 +52,12 @@ class Resume extends Component {
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Experience</h2>
             <Experience
+              startYear="Spring 2019"
+              endYear="Summer 2019"
+              jobName="Mobile App Developer Intern"
+              jobDescription="Testing, Coding, and Styling for Autoipacket mobile app"
+            />
+            <Experience
               startYear="Spring 2018"
               endYear="Summer 2018"
               jobName="Deli/Cheese Associate"
