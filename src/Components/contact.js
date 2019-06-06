@@ -34,7 +34,7 @@ class Contact extends Component {
                     }}
                   >
                     <i className="fa fa-phone-square" aria-hidden="true" />
-                    (123) 456-7890
+                    (304) 280-4470
                   </ListItemContent>
                 </ListItem>
 
@@ -46,7 +46,7 @@ class Contact extends Component {
                     }}
                   >
                     <i className="fa fa-fax" aria-hidden="true" />
-                    (123) 456-7890
+                    (304) 280-4470
                   </ListItemContent>
                 </ListItem>
 
@@ -58,7 +58,7 @@ class Contact extends Component {
                     }}
                   >
                     <i className="fa fa-envelope" aria-hidden="true" />
-                    someone@example.com
+                    emil.capito@autoipacket.com
                   </ListItemContent>
                 </ListItem>
 
