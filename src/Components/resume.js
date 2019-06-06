@@ -4,6 +4,7 @@ import Education from "./education";
 import Education2 from "./education2";
 import Experience from "./experience";
 import Skills from "./skills";
+import Picture from "./assets/OldFormalSelf.png";
 
 class Resume extends Component {
   render() {
@@ -12,14 +13,10 @@ class Resume extends Component {
         <Grid>
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
-              <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
-                alt="avatar"
-                style={{ height: "200px" }}
-              />
+              <img className="formalPicture" src={Picture} alt="avatar" />
             </div>
-            <h2 style={{ paddingTop: "2em" }}>Paul Hanna</h2>
-            <h4 style={{ color: "grey" }}>Programmer</h4>
+            <h2 style={{ paddingTop: "2em" }}>Emil Capito</h2>
+            <h4 style={{ color: "grey" }}>Computer Engineer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -58,20 +55,21 @@ class Resume extends Component {
               startYear="Spring 2018"
               endYear="Summer 2018"
               jobName="Deli/Cheese Associate"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+              jobDescription="Kroger Deli; slicing meats/cheeses"
             />
             <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+              startYear="Spring 2017"
+              endYear="Summer 2017"
+              jobName="Garden Center Associate"
+              jobDescription="Various landscaping and floral duties; Nicky’s Garden Center"
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Skills</h2>
-            <Skills skill="javascript" progress={100} />
+            <Skills skill="MatLab" progress={90} />
+            <Skills skill="javascript" progress={50} />
             <Skills skill="HTML/CSS" progress={80} />
             <Skills skill="NodeJS" progress={50} />
-            <Skills skill="React" progress={25} />>
+            <Skills skill="React" progress={50} />
           </Cell>
         </Grid>
       </div>
